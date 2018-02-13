@@ -3,17 +3,15 @@
 <head>
   <title>Fiat2LTC Options</title>
   <style>
-    body: { padding: 10px; }
+    body: { padding: 10px; width:200px; min-width:200px; max-width:200px;}
   </style>
 </head>
 
-<body>
-  <label>
-    <input type="checkbox" id="enabled">
-    Ticker Enabled?
-  </label>
-<br />
+<body style="min-width:200px; width:200px; max-width:200px;">
+  <label>Price Popup Enabled? &nbsp;&nbsp;<input type="checkbox" id="enabled"></label>
+<br />&nbsp;
   <div id="status"></div>
+  <br />&nbsp;
   <button id="save">Save</button>
 
   <script src="options.js"></script>
