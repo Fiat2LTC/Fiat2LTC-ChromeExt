@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Fiat2LTC",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "content_scripts": [
     {
       "matches": [
@@ -15,17 +15,29 @@
   ],
   "web_accessible_resources": [
         "frameGBP.html",
+        "frameGBPlites.html",
         "frameUSD.html",
+        "frameUSDlites.html",
         "frameEUR.html",
+        "frameEURlites.html",
         "frameAUD.html",
+        "frameAUDlites.html",
         "frameBRL.html",
+        "frameBRLlites.html",
         "frameCAD.html",
+        "frameCADlites.html",
         "frameCZK.html",
+        "frameCZKlites.html",
         "frameKRW.html",
+        "frameKRWlites.html",
         "frameMXN.html",
+        "frameMXNlites.html",
         "framePLN.html",
+        "framePLNlites.html",
         "frameRON.html",
-        "frameTRY.html"
+        "frameRONlites.html",
+        "frameTRY.html",
+        "frameTRYlites.html"
   ],
   "browser_action": {
     "default_icon": "f2lLogo1-small.png",
