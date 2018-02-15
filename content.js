@@ -18,7 +18,7 @@ function loadintodom() {
       //( rEl != "" ) ? rEl = rEl + ', ' + $(this) : rEl = $(this);
     })
     //$("body").wrapInner('<div style="position: fixed;left: 0px;right: 0px;bottom: 0px;top: 50px;overflow: auto;"></div>');
-    $("body").wrapInner('<div style="position: absolute; top: 50px; bottom: 0; left: 0; right: 0;"></div>');
+    $("body").wrapInner('<div style="position: absolute; top: 50px; bottom: 4px; left: 0; right: 0;"></div>');
     $("body").prepend('<div style="height: 50px;position: relative;">&nbsp;</div>');
     //src = 'https://fiat2ltc.com/IFRAME/'+theCurrency+'/1LTC&NOTAG&LTCONLY';
     
