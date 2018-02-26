@@ -5,10 +5,11 @@ var litesOnly = false;
     '{border: 1px solid #027ce894; display: inline-block; padding: 0px 4px; margin: 2px 2px 0px; text-decoration: none; cursor: pointer; transition: all .2s ease-in-out; border-radius: 2px; box-shadow: 0 0px 4px 0 rgba(0,0,0,0.1), 0 0px 4px 0 #027ce830; background-color: #0000; color: #027ce8 !important;}'
 var metaTag = '<meta http-equiv="Content-Security-Policy" content="default-src \'self\'; font-src \'self\' data: fonts.googleapis.com;"';
 var style = $('<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"><style id="f2lcss">#ltcMenu {font-family: "Raleway", "Open Sans", Helvetica, Arial, sans-serif; border:none;padding:0px;height: 50px;position: fixed;z-index: 99999;left:0px;top:0px} a.optC, a.optX, a.optLites, a.optLTC { letter-spacing: normal; line-height: 16px; font-weight: 500; font-size: 14px; border: 1px solid #027ce894; display: inline-block; padding: 0px 1px; margin: 0px 1px 2px 2px; text-decoration: none; cursor: pointer; transition: all .2s ease-in-out; border-radius: 2px; box-shadow: 0 0px 4px 0 rgba(0,0,0,0.1), 0 0px 4px 0 #027ce830; background-color: #0000; color: #027ce8 !important; -webkit-font-smoothing: auto; } a.optX, a.optLites, a.optLTC { padding: 5px 10px; margin: 9px 15px 0px 10px; } a.optC:hover, a.optX:hover, a.optLites:hover, a.optLTC:hover { cursor: pointer; box-shadow: 0 0px 6px 0 rgba(0,0,0,0.15) inset, 0 0px 6px 0 #027ce880 inset; color: #fff !important; opacity: 0.9; background-color: #027ce8; } a.optC:active, a.optX:active, a.optLites:active, a.optLTC:active { opacity: 0.5; } #optCCont { display: inline-block; vertical-align: top; padding-top: 6px; letter-spacing: normal; line-height: 16px; }</style>');
-$('html > head').append(style);
+
 function loadintodom() {
   $( document ).ready(function() {
     //restore_options();
+    $('html > head').append(style);
     
     var elements = $('body *').filter(function () { 
         return $(this).css('position') == 'fixed';
